@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select Cascata</title>
+  <style>
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <label for="regione">Regione:</label>
+  <select id="regione" onchange="caricaProvince()">
+  </select>
+
+  <label for="provincia">Provincia:</label>
+  <select id="provincia" onchange="caricaComuni()">
+  </select>
+
+  <label for="comune">Comune:</label>
+  <select id="comune">
+  </select>
+
+  <script src="main.js"></script>
+</body>
+</html>
